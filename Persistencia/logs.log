@@ -1,0 +1,260 @@
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.annotations.Version: - Método: <clinit> - Mensagem: Hibernate Annotations 3.3.1.GA 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: Hibernate 3.2.5 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: hibernate.properties not found 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: buildBytecodeProvider - Mensagem: Bytecode provider name : cglib 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: using JDK 1.4 java.sql.Timestamp handling 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: configure - Mensagem: configuring from resource: hibernate.cfg.xml 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: getConfigurationInputStream - Mensagem: Configuration resource: hibernate.cfg.xml 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: doConfigure - Mensagem: Configured SessionFactory: null 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: Using Hibernate built-in connection pool (not for production use!) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: Hibernate connection pool size: 20 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: autocommit mode: false 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/treinamento 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: connection properties: {user=root, password=****} 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: RDBMS: MySQL, version: 5.5.5-10.1.38-MariaDB 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.47 ( Revision: fe1903b1ecb4a96a917f7ed3190d80c049b1de29 ) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.dialect.Dialect: - Método: <init> - Mensagem: Using dialect: org.hibernate.dialect.MySQLDialect 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.transaction.TransactionFactoryFactory: - Método: buildTransactionFactory - Mensagem: Using default transaction strategy (direct JDBC transactions) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.transaction.TransactionManagerLookupFactory: - Método: getTransactionManagerLookup - Mensagem: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Automatic flush during beforeCompletion(): disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Automatic session close at end of transaction: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC batch size: 15 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC batch updates for versioned data: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Scrollable result sets: enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC3 getGeneratedKeys(): enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Connection release mode: auto 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Maximum outer join fetch depth: 2 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Default batch fetch size: 1 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Generate SQL with comments: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Order SQL updates by primary key: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Order SQL inserts for batching: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: createQueryTranslatorFactory - Mensagem: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.hql.ast.ASTQueryTranslatorFactory: - Método: <init> - Mensagem: Using ASTQueryTranslatorFactory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Query language substitutions: {} 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JPA-QL strict compliance: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Second-level cache: enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Query cache: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: createCacheProvider - Mensagem: Cache provider: org.hibernate.cache.NoCacheProvider 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Optimize cache for minimal puts: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Structured second-level cache entries: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Echoing all SQL to stdout 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Statistics: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Deleted entity synthetic identifier rollback: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Default entity-mode: pojo 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Named query checking : enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.impl.SessionFactoryImpl: - Método: <init> - Mensagem: building session factory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.impl.SessionFactoryObjectFactory: - Método: addInstance - Mensagem: Not binding factory to JNDI, no JNDI name configured 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.factory.HibernateUtil: - Método: getInstance - Mensagem: Retorna a sessão ativa com o banco de dados 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: listAll - Mensagem: conecta no banco de dados 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.annotations.Version: - Método: <clinit> - Mensagem: Hibernate Annotations 3.3.1.GA 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: Hibernate 3.2.5 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: hibernate.properties not found 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: buildBytecodeProvider - Mensagem: Bytecode provider name : cglib 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: using JDK 1.4 java.sql.Timestamp handling 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: configure - Mensagem: configuring from resource: hibernate.cfg.xml 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: getConfigurationInputStream - Mensagem: Configuration resource: hibernate.cfg.xml 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: doConfigure - Mensagem: Configured SessionFactory: null 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.AnnotationBinder: - Método: bindClass - Mensagem: Binding entity from annotated class: br.com.gx2.entity.Contato 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.annotations.EntityBinder: - Método: bindTable - Mensagem: Bind entity br.com.gx2.entity.Contato on table contatos 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.validator.Version: - Método: <clinit> - Mensagem: Hibernate Validator 3.0.0.GA 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: Using Hibernate built-in connection pool (not for production use!) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: Hibernate connection pool size: 20 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: autocommit mode: false 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/treinamento 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: connection properties: {user=root, password=****} 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: RDBMS: MySQL, version: 5.5.5-10.1.38-MariaDB 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.47 ( Revision: fe1903b1ecb4a96a917f7ed3190d80c049b1de29 ) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.dialect.Dialect: - Método: <init> - Mensagem: Using dialect: org.hibernate.dialect.MySQLDialect 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.transaction.TransactionFactoryFactory: - Método: buildTransactionFactory - Mensagem: Using default transaction strategy (direct JDBC transactions) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.transaction.TransactionManagerLookupFactory: - Método: getTransactionManagerLookup - Mensagem: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Automatic flush during beforeCompletion(): disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Automatic session close at end of transaction: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC batch size: 15 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC batch updates for versioned data: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Scrollable result sets: enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC3 getGeneratedKeys(): enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Connection release mode: auto 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Maximum outer join fetch depth: 2 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Default batch fetch size: 1 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Generate SQL with comments: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Order SQL updates by primary key: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Order SQL inserts for batching: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: createQueryTranslatorFactory - Mensagem: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.hql.ast.ASTQueryTranslatorFactory: - Método: <init> - Mensagem: Using ASTQueryTranslatorFactory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Query language substitutions: {} 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JPA-QL strict compliance: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Second-level cache: enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Query cache: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: createCacheProvider - Mensagem: Cache provider: org.hibernate.cache.NoCacheProvider 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Optimize cache for minimal puts: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Structured second-level cache entries: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Echoing all SQL to stdout 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Statistics: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Deleted entity synthetic identifier rollback: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Default entity-mode: pojo 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Named query checking : enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.impl.SessionFactoryImpl: - Método: <init> - Mensagem: building session factory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.impl.SessionFactoryObjectFactory: - Método: addInstance - Mensagem: Not binding factory to JNDI, no JNDI name configured 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.factory.HibernateUtil: - Método: getInstance - Mensagem: Retorna a sessão ativa com o banco de dados 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: listAll - Mensagem: Encerra a conexão 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: listAll - Mensagem: conecta no banco de dados 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.annotations.Version: - Método: <clinit> - Mensagem: Hibernate Annotations 3.3.1.GA 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: Hibernate 3.2.5 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: hibernate.properties not found 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: buildBytecodeProvider - Mensagem: Bytecode provider name : cglib 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: using JDK 1.4 java.sql.Timestamp handling 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: configure - Mensagem: configuring from resource: hibernate.cfg.xml 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: getConfigurationInputStream - Mensagem: Configuration resource: hibernate.cfg.xml 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: doConfigure - Mensagem: Configured SessionFactory: null 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.AnnotationBinder: - Método: bindClass - Mensagem: Binding entity from annotated class: br.com.gx2.entity.Contato 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.annotations.EntityBinder: - Método: bindTable - Mensagem: Bind entity br.com.gx2.entity.Contato on table contatos 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.validator.Version: - Método: <clinit> - Mensagem: Hibernate Validator 3.0.0.GA 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: Using Hibernate built-in connection pool (not for production use!) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: Hibernate connection pool size: 20 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: autocommit mode: false 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/treinamento 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: connection properties: {user=root, password=****} 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: RDBMS: MySQL, version: 5.5.5-10.1.38-MariaDB 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.47 ( Revision: fe1903b1ecb4a96a917f7ed3190d80c049b1de29 ) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.dialect.Dialect: - Método: <init> - Mensagem: Using dialect: org.hibernate.dialect.MySQLDialect 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.transaction.TransactionFactoryFactory: - Método: buildTransactionFactory - Mensagem: Using default transaction strategy (direct JDBC transactions) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.transaction.TransactionManagerLookupFactory: - Método: getTransactionManagerLookup - Mensagem: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Automatic flush during beforeCompletion(): disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Automatic session close at end of transaction: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC batch size: 15 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC batch updates for versioned data: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Scrollable result sets: enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC3 getGeneratedKeys(): enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Connection release mode: auto 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Maximum outer join fetch depth: 2 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Default batch fetch size: 1 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Generate SQL with comments: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Order SQL updates by primary key: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Order SQL inserts for batching: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: createQueryTranslatorFactory - Mensagem: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.hql.ast.ASTQueryTranslatorFactory: - Método: <init> - Mensagem: Using ASTQueryTranslatorFactory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Query language substitutions: {} 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JPA-QL strict compliance: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Second-level cache: enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Query cache: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: createCacheProvider - Mensagem: Cache provider: org.hibernate.cache.NoCacheProvider 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Optimize cache for minimal puts: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Structured second-level cache entries: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Echoing all SQL to stdout 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Statistics: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Deleted entity synthetic identifier rollback: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Default entity-mode: pojo 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Named query checking : enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.impl.SessionFactoryImpl: - Método: <init> - Mensagem: building session factory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.impl.SessionFactoryObjectFactory: - Método: addInstance - Mensagem: Not binding factory to JNDI, no JNDI name configured 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.factory.HibernateUtil: - Método: getInstance - Mensagem: Retorna a sessão ativa com o banco de dados 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: listAll - Mensagem: Encerra a conexão 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: create - Mensagem: conecta no banco de dados 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.annotations.Version: - Método: <clinit> - Mensagem: Hibernate Annotations 3.3.1.GA 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: Hibernate 3.2.5 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: hibernate.properties not found 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: buildBytecodeProvider - Mensagem: Bytecode provider name : cglib 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: using JDK 1.4 java.sql.Timestamp handling 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: configure - Mensagem: configuring from resource: hibernate.cfg.xml 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: getConfigurationInputStream - Mensagem: Configuration resource: hibernate.cfg.xml 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: doConfigure - Mensagem: Configured SessionFactory: null 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.AnnotationBinder: - Método: bindClass - Mensagem: Binding entity from annotated class: br.com.gx2.entity.Contato 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.annotations.EntityBinder: - Método: bindTable - Mensagem: Bind entity br.com.gx2.entity.Contato on table contatos 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.validator.Version: - Método: <clinit> - Mensagem: Hibernate Validator 3.0.0.GA 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: Using Hibernate built-in connection pool (not for production use!) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: Hibernate connection pool size: 20 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: autocommit mode: false 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/treinamento 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: connection properties: {user=root, password=****} 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: RDBMS: MySQL, version: 5.5.5-10.1.38-MariaDB 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.47 ( Revision: fe1903b1ecb4a96a917f7ed3190d80c049b1de29 ) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.dialect.Dialect: - Método: <init> - Mensagem: Using dialect: org.hibernate.dialect.MySQLDialect 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.transaction.TransactionFactoryFactory: - Método: buildTransactionFactory - Mensagem: Using default transaction strategy (direct JDBC transactions) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.transaction.TransactionManagerLookupFactory: - Método: getTransactionManagerLookup - Mensagem: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Automatic flush during beforeCompletion(): disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Automatic session close at end of transaction: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC batch size: 15 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC batch updates for versioned data: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Scrollable result sets: enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC3 getGeneratedKeys(): enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Connection release mode: auto 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Maximum outer join fetch depth: 2 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Default batch fetch size: 1 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Generate SQL with comments: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Order SQL updates by primary key: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Order SQL inserts for batching: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: createQueryTranslatorFactory - Mensagem: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.hql.ast.ASTQueryTranslatorFactory: - Método: <init> - Mensagem: Using ASTQueryTranslatorFactory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Query language substitutions: {} 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JPA-QL strict compliance: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Second-level cache: enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Query cache: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: createCacheProvider - Mensagem: Cache provider: org.hibernate.cache.NoCacheProvider 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Optimize cache for minimal puts: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Structured second-level cache entries: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Echoing all SQL to stdout 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Statistics: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Deleted entity synthetic identifier rollback: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Default entity-mode: pojo 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Named query checking : enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.impl.SessionFactoryImpl: - Método: <init> - Mensagem: building session factory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.impl.SessionFactoryObjectFactory: - Método: addInstance - Mensagem: Not binding factory to JNDI, no JNDI name configured 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.factory.HibernateUtil: - Método: getInstance - Mensagem: Retorna a sessão ativa com o banco de dados 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: create - Mensagem: inicializa a transação 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: create - Mensagem: salva o registro 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: create - Mensagem: encerra a sessão 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: delete - Mensagem: conecta no banco de dados 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.annotations.Version: - Método: <clinit> - Mensagem: Hibernate Annotations 3.3.1.GA 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: Hibernate 3.2.5 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: hibernate.properties not found 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: buildBytecodeProvider - Mensagem: Bytecode provider name : cglib 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Environment: - Método: <clinit> - Mensagem: using JDK 1.4 java.sql.Timestamp handling 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: configure - Mensagem: configuring from resource: hibernate.cfg.xml 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: getConfigurationInputStream - Mensagem: Configuration resource: hibernate.cfg.xml 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.Configuration: - Método: doConfigure - Mensagem: Configured SessionFactory: null 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.AnnotationBinder: - Método: bindClass - Mensagem: Binding entity from annotated class: br.com.gx2.entity.Contato 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.annotations.EntityBinder: - Método: bindTable - Mensagem: Bind entity br.com.gx2.entity.Contato on table contatos 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.validator.Version: - Método: <clinit> - Mensagem: Hibernate Validator 3.0.0.GA 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: Using Hibernate built-in connection pool (not for production use!) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: Hibernate connection pool size: 20 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: autocommit mode: false 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/treinamento 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.connection.DriverManagerConnectionProvider: - Método: configure - Mensagem: connection properties: {user=root, password=****} 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: RDBMS: MySQL, version: 5.5.5-10.1.38-MariaDB 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.47 ( Revision: fe1903b1ecb4a96a917f7ed3190d80c049b1de29 ) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.dialect.Dialect: - Método: <init> - Mensagem: Using dialect: org.hibernate.dialect.MySQLDialect 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.transaction.TransactionFactoryFactory: - Método: buildTransactionFactory - Mensagem: Using default transaction strategy (direct JDBC transactions) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.transaction.TransactionManagerLookupFactory: - Método: getTransactionManagerLookup - Mensagem: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended) 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Automatic flush during beforeCompletion(): disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Automatic session close at end of transaction: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC batch size: 15 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC batch updates for versioned data: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Scrollable result sets: enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JDBC3 getGeneratedKeys(): enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Connection release mode: auto 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Maximum outer join fetch depth: 2 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Default batch fetch size: 1 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Generate SQL with comments: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Order SQL updates by primary key: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Order SQL inserts for batching: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: createQueryTranslatorFactory - Mensagem: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.hql.ast.ASTQueryTranslatorFactory: - Método: <init> - Mensagem: Using ASTQueryTranslatorFactory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Query language substitutions: {} 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: JPA-QL strict compliance: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Second-level cache: enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Query cache: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: createCacheProvider - Mensagem: Cache provider: org.hibernate.cache.NoCacheProvider 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Optimize cache for minimal puts: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Structured second-level cache entries: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Echoing all SQL to stdout 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Statistics: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Deleted entity synthetic identifier rollback: disabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Default entity-mode: pojo 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.cfg.SettingsFactory: - Método: buildSettings - Mensagem: Named query checking : enabled 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.impl.SessionFactoryImpl: - Método: <init> - Mensagem: building session factory 
+Data: 21/08/2019 - Log: INFO - Classe: org.hibernate.impl.SessionFactoryObjectFactory: - Método: addInstance - Mensagem: Not binding factory to JNDI, no JNDI name configured 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.factory.HibernateUtil: - Método: getInstance - Mensagem: Retorna a sessão ativa com o banco de dados 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: delete - Mensagem: Inicializa a transação 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: delete - Mensagem: Remove o registro 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: delete - Mensagem: Commita a transação 
+Data: 21/08/2019 - Log: INFO - Classe: br.com.gx2.dao.imp.HibernateGenericDAO: - Método: delete - Mensagem: Encerra a conexão 
